@@ -78,7 +78,7 @@ El extractor llama a la API de OpenAI. Define tu clave en un fichero `.env` en l
 OPENAI_API_KEY=sk-...
 ```
 
-> El fichero `.env` está excluido en `.gitignore` y **nunca** debe subirse al repositorio.
+> El fichero `.env` está excluido y **nunca** debe subirse al repositorio.
 
 ---
 
@@ -146,12 +146,4 @@ Estas tres condiciones hacen que la ejecución sobre un mismo *prompt* sea, dent
 | Evaluación (H1–H6) | §5.4 |
 | Comprobación de coherencia con TRIA | §5.4.7 |
 
----
 
-## Licencia
-
-Distribuido bajo licencia MIT. Consulta el fichero `LICENSE`.
-
-## Cómo citar
-
-> M. Pérez de Ciriza Lacunza. *Diseño de un GPT para la evaluación y protección de la privacidad en prompts de usuario*. Trabajo de Fin de Grado, Grado en Ciencia e Ingeniería de Datos, Universitat Politècnica de Catalunya (UPC), 2026.
