@@ -1,0 +1,12 @@
+# === Sistema principal (extractor, métrica, recomendador, pipeline) ===
+openai>=1.40
+python-dotenv>=1.0
+pandas>=2.0
+
+# === Gráficas (opcional: figuras del recomendador y de la evaluación) ===
+matplotlib>=3.7
+
+# === Solo para evaluar_tria.py (ataque de reidentificación por embeddings) ===
+sentence-transformers>=2.2
+torch>=2.0
+numpy>=1.24
